@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  font-size: 28px;
+  background-color: gray;
+}
+
+header {
+  background-image: url('logo.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+  height: 6em;
+}
+
+
+section {
+  margin: 2em;
+  background-color: white;
+
+}
+
+section h2 {
+  font-size: 1.8em;
+  display: inline-block;
+  margin: 0.2em;
+  background-color: gray;
+
+
+}
+
+section p {
+  margin-left: 1em;
+  margin-right: 1em;
+
+font-size: 1em;
+}
+
+footer {
+  background-color: white;
+  padding: 2em;
+}
+
+footer h2 {
+
+}
