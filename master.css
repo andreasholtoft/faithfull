@@ -4,7 +4,11 @@ html, body {
 
 body {
   font-size: 28px;
-  background-color: gray;
+  font-family: 'Encode Sans Condensed', sans-serif;
+
+  --background-color: #FF530D;
+
+  background-color: var(--background-color, orange);
 }
 
 header {
@@ -19,7 +23,10 @@ header {
 
 section {
   margin: 2em;
+  padding-bottom: 1em;
   background-color: white;
+
+  border-radius: 2em 0 0 0;
 
 }
 
@@ -27,7 +34,8 @@ section h2 {
   font-size: 1.8em;
   display: inline-block;
   margin: 0.2em;
-  background-color: gray;
+  padding: 0 0.5em;
+
 
 
 }
